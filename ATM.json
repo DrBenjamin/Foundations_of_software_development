@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "LastUpdated": "2020-09-28T13:20:18.9592",
+    "TotalResult": 423,
+    "Agreement": "Use of APIs",
+    "License": "https://www.benbox.org",
+    "TermsOfUse": "https://www.benbox.org"
+  },
+  "data": [
+    {"ATMServices": ["PINUnblock",
+                  "Balance",
+                  "BillPayments",
+                  "CashWithdrawal",
+                  "FastCash",
+                  "MobilePhoneTopUp",
+                  "PINChange",
+                  "MiniStatement"],
+  "Accessibility": ["WheelchairAccess"],
+  "Branch": {"Identification": "80453100"},
+  "Identification": "BFF7BC11",
+  "Location": {"LocationCategory": ["BranchExternal"],
+               "PostalAddress": {"AddressLine": ["136 BUCHANAN STREET",
+                                                 "BALFRON"],
+                                 "BuildingNumber": "BOS BRANCH",
+                                 "Country": "GB",
+                                 "CountrySubDivision": ["GLASGOW"],
+                                 "GeoLocation": {"GeographicCoordinates": {"Latitude": "56.071629",
+                                                                           "Longitude": "-4.336911"}},
+                                 "PostCode": "G63 0TG",
+                                 "StreetName": "136 BUCHANAN STREET",
+                                 "TownName": "GLASGOW"},
+               "Site": {"Identification": "80453100"}},
+  "MinimumPossibleAmount": "10",
+  "SupportedCurrencies": ["GBP"]}
+  ]
+}
