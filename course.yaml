@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: course
+  labels:
+    type: info
+    app: course
+  annotations:
+    my-operator: discard
+spec:
+  containers:
+  - name: course
+    image: notebook:latest
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+    - containerPort: 8888
